@@ -12,20 +12,11 @@
    display: table-cell;
    text-align: left;
    vertical-align: top;
-   border: 1px solid black;
+   border: 2px solid black;
 }
 </style>
 <html>	
-	<div class="table">
-		<div class="table-row">
-			<div class="table-cell">test</div>
-			<div class="table-cell">test1123</div>
-		</div>
-		<div class="table-row">
-			<div class="table-cell">test</div>
-			<div class="table-cell">test123</div>
-		</div>
-	</div>
+	
 	<fieldset style="border-radius: 0.3cm;
 					padding: 0 0.3cm 0.1cm 0.3cm;
 					margin: .3cm 0;
@@ -36,7 +27,7 @@
 		<legend style="font-family: Arial;">Responsável</legend>											
 			<div style="white-space: nowrap;
 						float: left;
-						border: 1px solid red;
+						border: 2px solid blue;
 						">
 				<label>NOME</label>
 				<span style="margin-right:10cm;">igor carvalho soares</span>
