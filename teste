@@ -1,0 +1,93 @@
+<style>
+.table {
+	display: table;
+	border-collapse: collapse;
+}
+ 
+.table .table-row {
+   display: table-row;
+}
+ 
+.table .table-cell {
+   display: table-cell;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid black;
+}
+</style>
+<html>	
+	<div class="table">
+		<div class="table-row">
+			<div class="table-cell">test</div>
+			<div class="table-cell">test1123</div>
+		</div>
+		<div class="table-row">
+			<div class="table-cell">test</div>
+			<div class="table-cell">test123</div>
+		</div>
+	</div>
+	<fieldset style="border-radius: 0.3cm;
+					padding: 0 0.3cm 0.1cm 0.3cm;
+					margin: .3cm 0;
+					border-color: blue; 
+					font-size: 14px;
+					border: 2px solid;">
+
+		<legend style="font-family: Arial;">Responsável</legend>											
+			<div style="white-space: nowrap;
+						float: left;
+						border: 1px solid red;
+						">
+				<label>NOME</label>
+				<span style="margin-right:10cm;">igor carvalho soares</span>
+			</div>						
+		
+			<div style="white-space: nowrap;
+						float: left;
+						border: 1px solid red;
+						">
+				<label>RG</label>
+				<span style="margin-right:1cm;">2.043.730 SSP-PI</span>
+			</div>
+
+			<div style="white-space: nowrap;
+						float: left;
+						border: 1px solid red;
+						">
+				<label>CPF:</label>
+				<span style="margin-right: 1cm;">917.893.893-72</span>
+			</div>	
+
+			<div style="white-space: nowrap;
+						float: left;
+						border: 1px solid red;
+						">
+				<label>CPF:</label>
+				<span style="margin-right: 1cm;">917.893.893-72</span>
+			</div>
+
+			<div style="white-space: nowrap;
+						float: left;
+						border: 1px solid red;
+						">
+				<label>CPF:</label>
+				<span style="margin-right: 1cm;">917.893.893-72</span>
+			</div>
+
+			<div style="white-space: nowrap;
+						float: left;
+						border: 1px solid red;
+						">
+				<label>CPF:</label>
+				<span style="margin-right: 1cm;">917.893.893-72</span>
+			</div>
+
+			<div style="white-space: nowrap;
+						float: left;
+						border: 1px solid red;
+						">
+				<label>CPF:</label>
+				<span style="margin-right: 1cm;">917.893.893-72</span>
+			</div>			
+	</fieldset>	
+</html>
